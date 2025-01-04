@@ -80,3 +80,36 @@ input {
     background-color: #200D24;
     color: white;
 }
+@media (max-width: 768px) {
+    .header-title {
+        font-size: 1.5rem;
+    }
+    .header-subtitle {
+        font-size: 0.7rem;
+    }
+    .form-section-title {
+        font-size: 1rem;
+    }
+    .vote-card {
+        flex: 1 1 calc(50% - 20px); 
+    }
+}
+
+@media (max-width: 480px) {
+    .header-title {
+        font-size: 1.2rem;
+    }
+    .header-subtitle {
+        font-size: 0.6rem;
+    }
+    .form-section-title {
+        font-size: 0.8rem;
+    }
+    .vote-section {
+        flex-direction: column;
+    }
+    .vote-card {
+        flex: 1 1 100%;         
+        
+    }
+}
