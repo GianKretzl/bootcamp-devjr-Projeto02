@@ -82,7 +82,7 @@ input {
 }
 .back{
     color: white;
-    margin: auto;
+    
 }
 @media (max-width: 768px) {
     .header-title {
