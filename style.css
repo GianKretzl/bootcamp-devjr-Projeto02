@@ -80,6 +80,10 @@ input {
     background-color: #200D24;
     color: white;
 }
+.back{
+    color: white;
+    margin: auto;
+}
 @media (max-width: 768px) {
     .header-title {
         font-size: 1.5rem;
